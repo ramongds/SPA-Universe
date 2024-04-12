@@ -28,6 +28,7 @@ body img.bg{
     z-index: -1;
 }
 
+body {overflow: hidden; }
 
 #header{
     display: flex;
@@ -227,8 +228,8 @@ body img.bg{
               transform-origin: 50% 16%;
     }
     100% {
-      -webkit-transform: scale(1.25) translateY(15px);
-              transform: scale(1.25) translateY(15px);
+      -webkit-transform: scale(1.25) translateY(0px);
+              transform: scale(1.25) translateY(0px);
       -webkit-transform-origin: top;
               transform-origin: top;
     }
